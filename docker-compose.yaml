@@ -1,0 +1,8 @@
+version: '2'
+services:
+  meet:
+    build:
+      context: .
+    image: atheer/meet
+    ports:
+      - 8787:8080

@@ -139,3 +139,13 @@ Instructions on how to build it can be found [here](doc/mobile.md).
 ## Acknowledgements
 
 Jitsi Meet started out as a sample conferencing application using Jitsi Videobridge. It was originally developed by then ESTOS' developer Philipp Hancke who then contributed it to the community where development continues with joint forces!
+
+
+## Docker Support 
+
+Run 
+> docker-compose build
+
+> docker-compose up
+
+App will run on 8787 port
