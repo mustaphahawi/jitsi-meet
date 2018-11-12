@@ -15,6 +15,7 @@
   "author": "",
   "readmeFilename": "README.md",
   "dependencies": {
+    "express": "^4.13.4",
     "@atlaskit/avatar": "14.0.10",
     "@atlaskit/button": "9.0.8",
     "@atlaskit/checkbox": "4.0.6",
@@ -124,12 +125,10 @@
   },
   "license": "Apache-2.0",
   "scripts": {
+      "start": "node main.js",
     "lint": "eslint . && flow",
     "validate": "npm ls"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "browser": {
     "autosize": "./node_modules/autosize/build/jquery.autosize.js",
     "jQuery-Impromptu": "jQuery-Impromptu/src/jquery-impromptu.js"
