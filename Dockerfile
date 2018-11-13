@@ -29,6 +29,8 @@ COPY --from=dependencies /opt/Meet/ ./Meet
 RUN cp ./Meet/test.app.json ./Meet/package.json
 RUN npm install
 
+WORKDIR /opt/Meet/Meet
+
 EXPOSE 8080
 ## start the service
 CMD exec npm start
